@@ -1,12 +1,58 @@
-
+/* Univeral Style */
+* {
+  box-sizing: border-box;
+}
 
 /* Header Styling */
 header {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding: 1%;
   background-color: cadetblue;
-  max-height: 50px;
+  padding-right: 10px;
 }
 
+header img {
+  max-height: 150px;
+  display: inline;
+  padding-right: 50px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 0px 8px;
+  color: white;
+}
+
+/* Class Styling */
+.hdr-col1 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+/* .hdr-col2 {
+  display: flex;
+  justify-content: flex-end;
+} */
