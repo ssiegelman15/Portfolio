@@ -1,0 +1,12 @@
+
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: cadetblue;
+  max-height: 50px;
+}
+
