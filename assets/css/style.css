@@ -76,36 +76,11 @@ h3 {
   padding-right: 10px;
 }
 
-title {
-  font-size: 28px;
-  color: white;
-  background-color: cadetblue;
-  display: flex;
-  justify-content: flex-start;
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
-}
-
 aside {
   display: flex;
   flex: 3;
   padding-right: 150px;
   border-left: 2px solid cadetblue;
-}
-
-.first {
-  display: flex;
-  width: 100%;
-}
-
-.first img {
-  display: flex;
-  max-width: 100%;
-}
-
-.main-content {
-  padding-left: 40px;
 }
 
 .contacts {
@@ -137,6 +112,62 @@ aside {
   max-height: 300px;
 }
 
+.first {
+  display: flex;
+  width: 100%;
+  padding: 5px 5px 5px 10px;
+}
+
+.first title {
+  font-size: 28px;
+  color: white;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.first img {
+  display: flex;
+  max-width: 100%;
+}
+
+.main-content {
+  padding-left: 40px;
+}
+
 .container {
   position: relative;
+}
+
+.other-jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.other-jobs figure {
+  display: flex;
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 5px 5px 5px 10px;
+}
+
+.other-jobs title {
+  font-size: 18px;
+  color: white;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.other-jobs img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
 }
