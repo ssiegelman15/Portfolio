@@ -46,7 +46,6 @@ nav a {
   color: white;
 }
 
-
 h2 {
   display: flex;
   justify-content: flex-end;
@@ -82,17 +81,28 @@ aside {
   flex: 3;
 }
 
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contacts li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /* Class Styling */
 .hdr-col1 {
   display: flex;
   align-self: flex-end;
   flex-wrap: wrap;
 }
-
-/* .hdr-col2 {
-  display: flex;
-  justify-content: flex-end;
-} */
 
 .banner {
   width: 100%;
@@ -102,10 +112,4 @@ aside {
 
 .container {
   position: relative;
-}
-
-.section-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
