@@ -73,12 +73,18 @@ h3 {
   text-align: right;
   justify-content: flex-end;
   flex: 1;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 aside {
   display: flex;
   flex: 3;
+  padding-right: 150px;
+  border-left: 2px solid cadetblue;
+}
+
+.main-content {
+  padding-left: 40px;
 }
 
 .contacts {
