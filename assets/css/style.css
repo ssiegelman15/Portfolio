@@ -247,6 +247,12 @@ aside img:hover {
     flex-wrap: nowrap;
   }
   
+  h1 {
+    font-size: 32px;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
   #about-me {
     display: flex;
     flex-direction: column;
