@@ -133,11 +133,13 @@ aside img:hover {
   bottom: 10%;
   left: 10%;
   opacity: 1.0;
+  z-index: 1;
 }
 
 .first img {
   display: flex;
   max-width: 100%;
+  z-index: -1;
 }
 
 /* Rest of connected websites */
@@ -164,12 +166,14 @@ aside img:hover {
   bottom: 10%;
   left: 10%;
   opacity: 1.0;
+  z-index: 1;
 }
 
 .other-jobs img {
   display: flex;
   max-width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 /* Contacts section styling */
