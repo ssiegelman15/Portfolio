@@ -46,6 +46,13 @@ nav a {
   color: white;
 }
 
+.hdr-col1 {
+  display: flex;
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+
+/* Banner image styling */
 h2 {
   display: flex;
   justify-content: flex-end;
@@ -57,6 +64,14 @@ h2 {
   /* font-family: ; */
   text-shadow: 2px 4px 3px black;
 }
+
+.banner {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+/* Main body styling */
 
 section {
   display: flex;
@@ -83,6 +98,15 @@ aside {
   border-left: 2px solid cadetblue;
 }
 
+.main-content {
+  padding-left: 40px;
+}
+
+.container {
+  position: relative;
+}
+
+/* Image psuedo class */
 aside img {
   opacity: 0.7;
 }
@@ -91,34 +115,7 @@ aside img:hover {
   opacity: 1.0;
 }
 
-.contacts {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
-}
-
-.contacts li {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex: 1;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-/* Class Styling */
-.hdr-col1 {
-  display: flex;
-  align-self: flex-end;
-  flex-wrap: wrap;
-}
-
-.banner {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-}
+/* First project styling for a larger image */
 
 .first {
   display: flex;
@@ -135,6 +132,7 @@ aside img:hover {
   position: absolute;
   bottom: 10%;
   left: 10%;
+  opacity: 1.0;
 }
 
 .first img {
@@ -142,14 +140,7 @@ aside img:hover {
   max-width: 100%;
 }
 
-.main-content {
-  padding-left: 40px;
-}
-
-.container {
-  position: relative;
-}
-
+/* Rest of connected websites */
 .other-jobs {
   display: flex;
   flex-direction: row;
@@ -172,10 +163,29 @@ aside img:hover {
   position: absolute;
   bottom: 10%;
   left: 10%;
+  opacity: 1.0;
 }
 
 .other-jobs img {
   display: flex;
   max-width: 100%;
   height: auto;
+}
+
+/* Contacts section styling */
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contacts li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  text-decoration: underline;
+  font-weight: bold;
 }
