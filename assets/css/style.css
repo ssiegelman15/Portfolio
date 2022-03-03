@@ -243,6 +243,11 @@ aside img:hover {
 
 /* Responsive style changes to fit iPhone SE */
 @media screen and (max-width: 376px) {
+  .hdr-col1 {
+    flex-wrap: none;
+  }
+  
+  
   #about-me {
     display: flex;
     flex-direction: column;
