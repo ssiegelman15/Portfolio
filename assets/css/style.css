@@ -169,7 +169,7 @@ aside img:hover {
 .other-jobs img {
   display: flex;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* Contacts section styling */
