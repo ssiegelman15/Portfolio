@@ -139,7 +139,7 @@ aside img:hover {
 
 .first img {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   z-index: -1;
 }
 
