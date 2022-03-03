@@ -261,7 +261,7 @@ aside img:hover {
     font-size:12px;
   }
   
-  #about-me {
+  #about-me, #work, #contact-me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,5 +271,9 @@ aside img:hover {
     /* flex: 1; */
     display: block;
     text-align: center;
+    padding-bottom: 20px;
   }
+  
+  aside li {
+    padding-bottom: 20px;
 }
