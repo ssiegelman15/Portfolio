@@ -261,7 +261,7 @@ aside img:hover {
 }
 
 /* Responsive style changes to fit iPhone SE */
-@media screen and (max-width: 376px) {  
+@media screen and (max-width: 430px) {  
   h1 {
     font-size: 32px;
   }
