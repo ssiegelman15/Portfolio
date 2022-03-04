@@ -237,6 +237,17 @@ aside img:hover {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .hdr-col1 {
+    flex-wrap: nowrap;
+  }
+  
+  h1 {
+    align-items: center;
+    padding-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   #contact {
     display: flex;
@@ -250,15 +261,9 @@ aside img:hover {
 }
 
 /* Responsive style changes to fit iPhone SE */
-@media screen and (max-width: 376px) {
-  .hdr-col1 {
-    flex-wrap: nowrap;
-  }
-  
+@media screen and (max-width: 376px) {  
   h1 {
     font-size: 32px;
-    align-items: center;
-    padding-bottom: 0px;
   }
   
   nav li {
