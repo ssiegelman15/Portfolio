@@ -180,20 +180,12 @@ aside img:hover {
 
 /* Contacts section styling */
 
-/* .contacts {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 100%;
-} */
-
 .contacts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
-  /* flex: 1; */
   text-decoration: underline;
   font-weight: bold;
   font-size: 24px;
@@ -268,7 +260,6 @@ aside img:hover {
   }
   
   h3 {
-    /* flex: 1; */
     display: block;
     text-align: center;
     padding-bottom: 20px;
