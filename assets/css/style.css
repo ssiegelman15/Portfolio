@@ -253,10 +253,17 @@ aside img:hover {
     font-size:12px;
   }
   
-  #about-me, #work, #contact-me {
+  #about, #work, #contact {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  aside {
+    display: flex;
+    border-left: none;
+    align-items: center;
+    justify-content: center;
   }
   
   h3 {
@@ -267,4 +274,5 @@ aside img:hover {
   
   .contacts li {
     padding: 10px;
+  }
 }
