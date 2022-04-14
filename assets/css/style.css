@@ -144,7 +144,7 @@ aside img:hover {
   z-index: -1;
 }
 
-/* Rest of connected websites */
+/* Rest of connected websites styling */
 .other-jobs {
   display: flex;
   flex-direction: row;
@@ -195,7 +195,7 @@ aside img:hover {
   padding: 10ipx;
 }
 
-/* Responsive style changes to fit iPod Air */
+/* Responsive style changes to fit various screen sizes */
 @media screen and (max-width: 820px) {
   nav {
     width: 100%;
@@ -237,6 +237,17 @@ aside img:hover {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .hdr-col1 {
+    flex-wrap: nowrap;
+  }
+  
+  h1 {
+    align-items: center;
+    padding-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   #contact {
     display: flex;
@@ -249,16 +260,9 @@ aside img:hover {
   }
 }
 
-/* Responsive style changes to fit iPhone SE */
-@media screen and (max-width: 376px) {
-  .hdr-col1 {
-    flex-wrap: nowrap;
-  }
-  
+@media screen and (max-width: 430px) {  
   h1 {
     font-size: 32px;
-    align-items: center;
-    padding-bottom: 0px;
   }
   
   nav li {
