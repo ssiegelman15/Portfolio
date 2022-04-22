@@ -1,6 +1,4 @@
-# Portfolio-HW-Week2
-
-## Shlomo's Portfolio
+# Portfolio
 
 This page seeks to showcase some of my accomplishments as a fullstack developer to potential future employers.
 
