@@ -4,7 +4,7 @@ This page seeks to showcase some of my accomplishments as a fullstack developer 
 
 ## Link to Webpage
 
-https://ssiegelman15.github.io/Portfolio-HW-Week2/
+https://ssiegelman15.github.io/Portfolio/
 
 ## Screenshot of Webpage
 
