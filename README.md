@@ -1,4 +1,4 @@
-# Portfolio
+# Shlomo's Portfolio
 
 This page seeks to showcase some of my accomplishments as a fullstack developer to potential future employers.
 
