@@ -4,7 +4,7 @@ This page seeks to showcase some of my accomplishments as a fullstack developer 
 
 ## Link to Webpage
 
-https://ssiegelman15.github.io/Portfolio/
+[https://ssiegelman15.github.io/Portfolio/](https://ssiegelman15.github.io/Shlomo-Portfolio/)
 
 ## Screenshot of Webpage
 
